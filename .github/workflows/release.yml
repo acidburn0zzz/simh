@@ -21,7 +21,7 @@ jobs:
           rm -rf work/open-simh/open-simh/staging/
           mkdir -p work/open-simh/open-simh/staging/
       - name: Download packages
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           path: ~/work/open-simh/open-simh/staging/
       - name: Show it!
